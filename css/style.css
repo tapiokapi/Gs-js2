@@ -1,0 +1,136 @@
+
+body {
+  background-color: #fbdac8;
+}
+
+canvas {
+  margin: 20px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.tools {
+  /* 要素の回り込みを解除 */
+  clear: both;
+  width: 600px;
+}
+
+/* カラーパレットの形、ペンの太さパレットの形*/
+.color, .pen {
+  border-radius: 0 50px 50px 50px;
+  border: 3px solid #fff;
+}
+
+/* カラーパレット、ペンの太さパレット設定 */
+.tools div, .pen, .fill, .file, .clear, .change{
+  float: left;
+  font-size: 40px;
+  font-weight: bolder; /* bolderで相対的に一段階太くできる */
+  color: #fff;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center; /*中央寄せ*/
+  line-height: 50px; /*中央配置*/
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+#color1 {
+  background-color: #f00;
+}
+
+#color2 {
+  background-color: #f9c;
+}
+
+#color3 {
+  background-color: #ff0;
+}
+
+#color4 {
+  background-color: rgb(243, 115, 11);
+}
+
+#color5 {
+  background-color: #00f;
+}
+
+#color6 {
+  background-color: #0f0;
+}
+
+#color7 {
+  background-color: #060;
+}
+
+#color8 {
+  background-color: #000;
+}
+
+#color9 {
+  background-color: #8d4b15;
+}
+
+#color10 {
+  background-color: #fff;
+}
+
+#chg-color1 {
+  background-color: #ba2636;
+}
+
+#chg-color2 {
+  background-color: #eebbcb;
+}
+
+#chg-color3 {
+  background-color: #fef263;
+}
+
+#chg-color4 {
+  background-color: #1e50a2;
+}
+
+#chg-color5 {
+  background-color: #bce2e8;
+}
+
+#chg-color6 {
+  background-color: #98d98e;
+}
+
+#chg-color7 {
+  background-color: #7058a3;
+}
+
+#chg-color8 {
+  background-color: #afafb0;
+}
+
+#chg-color9 {
+  background-color: #b28c6e;
+}
+
+/* カラーパレットを選択した時、枠の色を変える */
+.select {
+  border-color: #66f !important; /* スタイルの優先順位をあげる*/
+}
+
+#normal, #bold {
+  background-color: #555;
+}
+
+.fill {
+  border-radius: 20px;
+  background-color: #555;
+  font-size: 10px !important;
+}
+
+.file, .clear, .change {
+  border-radius: 0;
+  background-color: #555;
+  font-size: 10px !important;
+}
+
+.hover {
+  border-color: #f6f !important;
+}

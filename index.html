@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お絵かき</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- canvas領域を確保 -->
+  <canvas id="canvas" width="480px" height="320px"></canvas>
+
+  <!-- カラーパレット -->
+  <div class="tools">
+    <div class="color" id="color1"></div>
+    <div class="color" id="color2"></div>
+    <div class="color" id="color3"></div>
+    <div class="color" id="color4"></div>
+    <div class="color" id="color5"></div>
+    <div class="color" id="color6"></div>
+    <div class="color" id="color7"></div>
+    <div class="color" id="color8"></div>
+    <div class="color" id="color9"></div>
+    <div class="color" id="color10"></div>
+  </div>
+
+  <!-- ペンの太さ -->
+  <div class="pen" id="normal">・</div>
+  <div class="pen" id="bold">●</div>
+
+  <!-- Fillボタン -->
+  <div class="fill" id="fill">Fill</div>
+  <!-- changeボタン -->
+  <div class="change" id="change">Change</div>
+  <!-- loadボタン -->
+  <div class="file" id="load">Load</div>
+  <!-- saveボタン -->
+  <div class="file" id="save">Save</div>
+  <!-- clearボタン -->
+  <div class="clear" id="clear">Clear</div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
